@@ -1,10 +1,12 @@
+import "../index.css";
+
 const Header = () => {
   return (
     <>
-      <div className="flex justify-between items-center p-5 ">
+      <div className="flex justify-between items-center p-5">
         <div className="flex justify-center items-center gap-10 cursor-pointer">
           <h1 className="font-bold text-4xl pb-2">HootSuite</h1>
-          <ul className="flex gap-10 text-xl font-bold">
+          <ul id="header" className="flex gap-10 text-xl font-bold">
             <li>Platform</li>
             <li>Plans</li>
             <li>Enterprises</li>
